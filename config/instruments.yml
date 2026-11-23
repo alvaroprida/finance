@@ -1,0 +1,128 @@
+# Series catalogue for the market dashboard.
+#
+# source:    yahoo  -> symbol is a Yahoo Finance ticker (daily close, adjusted)
+#            fred   -> symbol is a FRED series id (daily, percent)
+#            derived-> minus: [a, b] computes a - b from two other keys
+# transform: how returns are computed for correlations
+#            log   -> daily log return (prices)
+#            diff  -> daily change in the series' own unit (yields, spreads)
+series:
+  - key: sp500
+    label: S&P 500
+    group: Equities
+    source: yahoo
+    symbol: "^GSPC"
+    unit: index
+    transform: log
+
+  - key: dow
+    label: Dow Jones Industrial
+    group: Equities
+    source: yahoo
+    symbol: "^DJI"
+    unit: index
+    transform: log
+
+  - key: nasdaq
+    label: Nasdaq Composite
+    group: Equities
+    source: yahoo
+    symbol: "^IXIC"
+    unit: index
+    transform: log
+
+  - key: btc
+    label: Bitcoin
+    group: Crypto
+    source: yahoo
+    symbol: "BTC-USD"
+    unit: USD
+    transform: log
+
+  - key: eth
+    label: Ethereum
+    group: Crypto
+    source: yahoo
+    symbol: "ETH-USD"
+    unit: USD
+    transform: log
+
+  - key: copper
+    label: Copper (COMEX)
+    group: Metals
+    source: yahoo
+    symbol: "HG=F"
+    unit: USD/lb
+    transform: log
+
+  - key: gold
+    label: Gold (COMEX)
+    group: Metals
+    source: yahoo
+    symbol: "GC=F"
+    unit: USD/oz
+    transform: log
+
+  - key: silver
+    label: Silver (COMEX)
+    group: Metals
+    source: yahoo
+    symbol: "SI=F"
+    unit: USD/oz
+    transform: log
+
+  - key: eurusd
+    label: EUR/USD
+    group: FX
+    source: yahoo
+    symbol: "EURUSD=X"
+    unit: USD per EUR
+    transform: log
+
+  - key: y3m
+    label: US Treasury 3M
+    group: Yields
+    source: fred
+    symbol: "DGS3MO"
+    unit: "%"
+    transform: diff
+
+  - key: y2
+    label: US Treasury 2Y
+    group: Yields
+    source: fred
+    symbol: "DGS2"
+    unit: "%"
+    transform: diff
+
+  - key: y5
+    label: US Treasury 5Y
+    group: Yields
+    source: fred
+    symbol: "DGS5"
+    unit: "%"
+    transform: diff
+
+  - key: y10
+    label: US Treasury 10Y
+    group: Yields
+    source: fred
+    symbol: "DGS10"
+    unit: "%"
+    transform: diff
+
+  - key: y30
+    label: US Treasury 30Y
+    group: Yields
+    source: fred
+    symbol: "DGS30"
+    unit: "%"
+    transform: diff
+
+  - key: spread_10y_3m
+    label: Curve 10Y minus 3M
+    group: Yields
+    source: derived
+    minus: ["y10", "y3m"]
+    unit: "%"
+    transform: diff

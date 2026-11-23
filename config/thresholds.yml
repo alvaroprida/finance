@@ -1,0 +1,129 @@
+# Alert threshold table. Evaluated every day by pipeline/alerts.py.
+#
+# metric (computed on the latest observation of each series):
+#   level, pct_1d, pct_1w, pct_1m, pct_1y   -> % change (level = current value)
+#   abs_1d, abs_1m, abs_1y                  -> change in the series' own unit
+#                                              (yields: percentage points, 0.5 = 50bp)
+#   drawdown_1y                             -> % below the 1-year high (<= 0)
+#   zscore_1y                               -> z-score of level vs trailing 1Y
+# op: >  >=  <  <=
+rules:
+  - id: sp500_correction
+    series: sp500
+    metric: drawdown_1y
+    op: "<="
+    threshold: -10
+    severity: warning
+    message: "S&P 500 at least 10% below its 1-year high"
+
+  - id: nasdaq_correction
+    series: nasdaq
+    metric: drawdown_1y
+    op: "<="
+    threshold: -15
+    severity: warning
+    message: "Nasdaq Composite at least 15% below its 1-year high"
+
+  - id: dow_correction
+    series: dow
+    metric: drawdown_1y
+    op: "<="
+    threshold: -10
+    severity: warning
+    message: "Dow Jones at least 10% below its 1-year high"
+
+  - id: sp500_daily_drop
+    series: sp500
+    metric: pct_1d
+    op: "<="
+    threshold: -2
+    severity: info
+    message: "S&P 500 fell 2% or more in one session"
+
+  - id: btc_drawdown
+    series: btc
+    metric: drawdown_1y
+    op: "<="
+    threshold: -30
+    severity: warning
+    message: "Bitcoin at least 30% below its 1-year high"
+
+  - id: btc_daily_move
+    series: btc
+    metric: pct_1d
+    op: "<="
+    threshold: -5
+    severity: info
+    message: "Bitcoin down 5% or more in one day"
+
+  - id: eth_drawdown
+    series: eth
+    metric: drawdown_1y
+    op: "<="
+    threshold: -40
+    severity: warning
+    message: "Ethereum at least 40% below its 1-year high"
+
+  - id: gold_strong_month
+    series: gold
+    metric: pct_1m
+    op: ">="
+    threshold: 5
+    severity: info
+    message: "Gold up 5% or more over one month"
+
+  - id: copper_weak_month
+    series: copper
+    metric: pct_1m
+    op: "<="
+    threshold: -8
+    severity: warning
+    message: "Copper down 8% or more over one month"
+
+  - id: silver_daily_drop
+    series: silver
+    metric: pct_1d
+    op: "<="
+    threshold: -4
+    severity: info
+    message: "Silver down 4% or more in one session"
+
+  - id: eurusd_month_up
+    series: eurusd
+    metric: pct_1m
+    op: ">="
+    threshold: 3
+    severity: info
+    message: "EUR/USD up 3% or more over one month (USD weakening)"
+
+  - id: eurusd_month_down
+    series: eurusd
+    metric: pct_1m
+    op: "<="
+    threshold: -3
+    severity: info
+    message: "EUR/USD down 3% or more over one month (USD strengthening)"
+
+  - id: curve_inverted
+    series: spread_10y_3m
+    metric: level
+    op: "<"
+    threshold: 0
+    severity: warning
+    message: "US curve inverted (10Y below 3M)"
+
+  - id: y10_month_up
+    series: y10
+    metric: abs_1m
+    op: ">="
+    threshold: 0.5
+    severity: warning
+    message: "10Y Treasury yield up 50bp or more over one month"
+
+  - id: y10_month_down
+    series: y10
+    metric: abs_1m
+    op: "<="
+    threshold: -0.5
+    severity: warning
+    message: "10Y Treasury yield down 50bp or more over one month"

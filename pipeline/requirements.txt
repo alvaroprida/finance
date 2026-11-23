@@ -1,0 +1,7 @@
+yfinance>=0.2.50
+pandas>=2.2
+numpy>=1.26
+requests>=2.32
+pyyaml>=6.0
+matplotlib>=3.9
+reportlab>=4.2

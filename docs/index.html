@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Analysis Dashboard</title>
+  <meta name="description" content="Daily market dashboard: indices, crypto, metals, FX and US yields with correlation analysis.">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Market Analysis</h1>
+      <p id="asof" class="muted">Loading data…</p>
+    </div>
+    <nav class="links">
+      <a href="reports/latest.pdf">Daily PDF report</a>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-label="Latest snapshot">
+      <div id="cards" class="cards"></div>
+    </section>
+
+    <div class="layout">
+      <aside class="controls" aria-label="Chart controls">
+        <h2>Series</h2>
+        <div class="row-btns">
+          <button id="select-all" type="button">All</button>
+          <button id="select-none" type="button">None</button>
+        </div>
+        <div id="series-list"></div>
+
+        <h2>Range</h2>
+        <div id="ranges" class="chips"></div>
+
+        <h2>View</h2>
+        <label class="field">Mode
+          <select id="mode">
+            <option value="rebased">Rebased to 100</option>
+            <option value="level">Level</option>
+          </select>
+        </label>
+        <label class="check"><input id="logy" type="checkbox"> Log scale</label>
+        <p class="hint">Use rebased for mixed units. Yields only make sense in level mode.</p>
+      </aside>
+
+      <div class="main">
+        <section class="panel">
+          <div id="chart" class="chart"></div>
+        </section>
+
+        <section class="panel">
+          <h2>Correlation matrix</h2>
+          <p class="hint">Pearson correlation of daily returns over the selected range and series. Prices use log returns, yields use daily changes. Dates are restricted to those where every selected series traded.</p>
+          <div id="corr" class="scroll"></div>
+        </section>
+
+        <section class="panel">
+          <h2>Rolling correlation</h2>
+          <div class="pair">
+            <label class="field">Series A
+              <select id="pair-a"></select>
+            </label>
+            <label class="field">Series B
+              <select id="pair-b"></select>
+            </label>
+            <label class="field">Window (trading days)
+              <select id="pair-win">
+                <option value="60">60</option>
+                <option value="120">120</option>
+                <option value="250" selected>250</option>
+              </select>
+            </label>
+          </div>
+          <div id="rolling" class="chart chart-small"></div>
+        </section>
+      </div>
+    </div>
+
+    <section class="panel">
+      <h2>Alert thresholds</h2>
+      <p class="hint">Rules live in <code>config/thresholds.yml</code> and are evaluated each day.</p>
+      <div id="alerts" class="scroll"></div>
+    </section>
+  </main>
+
+  <footer>
+    Public data from Yahoo Finance and FRED. Refreshed daily by GitHub Actions. Informational only, not investment advice.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
