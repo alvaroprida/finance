@@ -402,6 +402,8 @@
       state.keys.forEach((k, i) => (state.color[k] = PALETTE[i % PALETTE.length]));
       state.snap = status.snapshot;
       state.rules = status.rules;
+      $("read").innerHTML = (status.observations || [])
+        .map((line) => `<li>${esc(line)}</li>`).join("");
       state.selected = new Set(state.keys.filter((k) => !DEFAULT_OFF.has(state.meta[k].group)));
       state.pairA = "sp500" in state.meta ? "sp500" : state.keys[0];
       state.pairB = "btc" in state.meta ? "btc" : state.keys[1];

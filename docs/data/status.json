@@ -198,6 +198,14 @@
    "zscore_1y": 0.19665939921677533
   }
  },
+ "observations": [
+  "Largest 1-month moves: Ethereum -26.9%, Bitcoin -24.0%, Silver (COMEX) -20.5%.",
+  "More than 10% below 1-year high: S&P 500 (-12%), Dow Jones Industrial (-11%), Nasdaq Composite (-18%), Bitcoin (-37%), Ethereum (-49%), Copper (COMEX) (-18%), Gold (COMEX) (-32%), Silver (COMEX) (-63%).",
+  "10Y minus 3M spread at +70bp (positive), -16bp over one month.",
+  "Highest 1Y co-movement: S&P 500 / Nasdaq Composite (+0.96); US Treasury 5Y / US Treasury 10Y (+0.95).",
+  "Strongest inverse relationships: Dow Jones Industrial / US Treasury 30Y (-0.33); Dow Jones Industrial / US Treasury 10Y (-0.32).",
+  "7 of 15 alert rules triggered today."
+ ],
  "rules": [
   {
    "id": "sp500_correction",

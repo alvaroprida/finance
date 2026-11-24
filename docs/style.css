@@ -235,6 +235,9 @@ td.corr-diag { color: var(--muted); }
 .tag.warning { color: var(--down); }
 .tag.info { color: var(--accent); }
 
+.read { margin-bottom: 16px; }
+.read-list { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+
 .up { color: var(--up); }
 .down { color: var(--down); }
 

@@ -8,6 +8,7 @@ import json
 import math
 import operator
 
+from analysis import observations, one_year_correlation
 from common import STATUS_PATH, clean, load_rules, load_series, snapshot
 
 OPS = {">": operator.gt, ">=": operator.ge, "<": operator.lt, "<=": operator.le}
@@ -40,10 +41,12 @@ def main() -> None:
         )
 
     as_of = frame.dropna(how="all").index[-1].strftime("%Y-%m-%d")
+    corr = one_year_correlation(frame, meta)
     status = {
         "generated_utc": payload["generated_utc"],
         "as_of": as_of,
         "snapshot": snap,
+        "observations": observations(meta, snap, corr, evaluated),
         "rules": evaluated,
         "triggered_count": sum(r["triggered"] for r in evaluated),
     }

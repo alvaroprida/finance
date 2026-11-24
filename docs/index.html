@@ -20,6 +20,11 @@
   </header>
 
   <main>
+    <section class="panel read" aria-labelledby="read-title">
+      <h2 id="read-title">Today's read</h2>
+      <ul id="read" class="read-list"><li>Loading analysis…</li></ul>
+    </section>
+
     <section aria-label="Latest snapshot">
       <div id="cards" class="cards"></div>
     </section>
@@ -82,13 +87,13 @@
 
     <section class="panel">
       <h2>Alert thresholds</h2>
-      <p class="hint">Rules live in <code>config/thresholds.yml</code> and are evaluated each day.</p>
+      <p class="hint">Each rule is checked against the latest data every day. Triggered rules appear first.</p>
       <div id="alerts" class="scroll"></div>
     </section>
   </main>
 
   <footer>
-    Public data from Yahoo Finance and FRED. Refreshed daily by GitHub Actions. Informational only, not investment advice.
+    Public market data from Yahoo Finance and FRED, updated daily. For information only, not investment advice.
   </footer>
 
   <script src="app.js"></script>
