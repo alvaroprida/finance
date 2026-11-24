@@ -8,7 +8,7 @@ import json
 import math
 import operator
 
-from analysis import observations, one_year_correlation
+from analysis import observations, one_year_correlation, product_analysis
 from common import STATUS_PATH, clean, load_rules, load_series, snapshot
 
 OPS = {">": operator.gt, ">=": operator.ge, "<": operator.lt, "<=": operator.le}
@@ -47,6 +47,7 @@ def main() -> None:
         "as_of": as_of,
         "snapshot": snap,
         "observations": observations(meta, snap, corr, evaluated),
+        "products": product_analysis(frame, meta, snap),
         "rules": evaluated,
         "triggered_count": sum(r["triggered"] for r in evaluated),
     }

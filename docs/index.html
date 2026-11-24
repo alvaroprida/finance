@@ -3,90 +3,79 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Market Analysis Dashboard</title>
-  <meta name="description" content="Daily market dashboard: indices, crypto, metals, FX and US yields with correlation analysis.">
+  <title>Daily Market Analysis</title>
+  <meta name="description" content="Daily briefing on equity indices, crypto, metals, EUR/USD and US Treasury yields: trend, cycle status, correlations and alerts.">
   <link rel="stylesheet" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.35.2/plotly.min.js"></script>
 </head>
 <body>
   <header class="topbar">
     <div>
-      <h1>Market Analysis</h1>
+      <h1>Daily Market Analysis</h1>
       <p id="asof" class="muted">Loading data…</p>
     </div>
-    <nav class="links">
-      <a href="reports/latest.pdf">Daily PDF report</a>
-    </nav>
+    <div class="actions no-print">
+      <button id="export" class="primary" type="button">Export PDF</button>
+    </div>
   </header>
 
   <main>
-    <section class="panel read" aria-labelledby="read-title">
-      <h2 id="read-title">Today's read</h2>
-      <ul id="read" class="read-list"><li>Loading analysis…</li></ul>
+    <section class="panel" id="intro" aria-labelledby="intro-title">
+      <h2 id="intro-title">Introduction</h2>
+      <p>
+        This page is a daily briefing on financial markets. It follows US equity indices, crypto,
+        metals, the euro-dollar exchange rate and US Treasury yields, and each day it describes
+        where every product stands in its cycle: its trend, momentum, distance from recent highs
+        and how volatile it has been.
+      </p>
+      <p>
+        Read it top to bottom. First comes the cycle status of each market and the key observations
+        of the day. Then there is one section per product group with a chart, the latest numbers and
+        written analysis. The last sections show how the markets move together and which alert
+        thresholds were crossed.
+      </p>
+      <p class="hint">
+        Cycle status describes the current state of each market using trend (price against its
+        50- and 200-day averages), not a forecast of what comes next.
+      </p>
+      <div id="cycle" class="cycle" aria-label="Cycle status by market"></div>
     </section>
 
-    <section aria-label="Latest snapshot">
-      <div id="cards" class="cards"></div>
+    <section class="panel" id="today" aria-labelledby="today-title">
+      <h2 id="today-title">Today's read</h2>
+      <ul id="read" class="bullets"><li>Loading analysis…</li></ul>
     </section>
 
-    <div class="layout">
-      <aside class="controls" aria-label="Chart controls">
-        <h2>Series</h2>
-        <div class="row-btns">
-          <button id="select-all" type="button">All</button>
-          <button id="select-none" type="button">None</button>
-        </div>
-        <div id="series-list"></div>
+    <div id="products"></div>
 
-        <h2>Range</h2>
-        <div id="ranges" class="chips"></div>
+    <section class="panel" id="correlations" aria-labelledby="corr-title">
+      <div class="panel-head">
+        <h2 id="corr-title">How the markets move together</h2>
+        <div id="corr-ranges" class="chips no-print" role="group" aria-label="Correlation window"></div>
+      </div>
+      <p class="hint">
+        Correlation of daily returns, from -1 (opposite moves) to +1 (identical moves). Prices use
+        log returns and yields use daily changes. Only days when every series traded are used.
+      </p>
+      <div id="corr" class="scroll"></div>
 
-        <h2>View</h2>
-        <label class="field">Mode
-          <select id="mode">
-            <option value="rebased">Rebased to 100</option>
-            <option value="level">Level</option>
+      <h3>Rolling correlation between two products</h3>
+      <div class="pair no-print">
+        <label class="field">Product A <select id="pair-a"></select></label>
+        <label class="field">Product B <select id="pair-b"></select></label>
+        <label class="field">Window (trading days)
+          <select id="pair-win">
+            <option value="60">60</option>
+            <option value="120">120</option>
+            <option value="250" selected>250</option>
           </select>
         </label>
-        <label class="check"><input id="logy" type="checkbox"> Log scale</label>
-        <p class="hint">Use rebased for mixed units. Yields only make sense in level mode.</p>
-      </aside>
-
-      <div class="main">
-        <section class="panel">
-          <div id="chart" class="chart"></div>
-        </section>
-
-        <section class="panel">
-          <h2>Correlation matrix</h2>
-          <p class="hint">Pearson correlation of daily returns over the selected range and series. Prices use log returns, yields use daily changes. Dates are restricted to those where every selected series traded.</p>
-          <div id="corr" class="scroll"></div>
-        </section>
-
-        <section class="panel">
-          <h2>Rolling correlation</h2>
-          <div class="pair">
-            <label class="field">Series A
-              <select id="pair-a"></select>
-            </label>
-            <label class="field">Series B
-              <select id="pair-b"></select>
-            </label>
-            <label class="field">Window (trading days)
-              <select id="pair-win">
-                <option value="60">60</option>
-                <option value="120">120</option>
-                <option value="250" selected>250</option>
-              </select>
-            </label>
-          </div>
-          <div id="rolling" class="chart chart-small"></div>
-        </section>
       </div>
-    </div>
+      <div id="rolling" class="chart chart-small"></div>
+    </section>
 
-    <section class="panel">
-      <h2>Alert thresholds</h2>
+    <section class="panel" id="alerts-panel" aria-labelledby="alerts-title">
+      <h2 id="alerts-title">Alert thresholds</h2>
       <p class="hint">Each rule is checked against the latest data every day. Triggered rules appear first.</p>
       <div id="alerts" class="scroll"></div>
     </section>
