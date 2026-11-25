@@ -1,210 +1,210 @@
 {
- "generated_utc": "2026-11-23T07:26:21+00:00",
- "as_of": "2026-11-23",
+ "generated_utc": "2026-11-25T04:58:09+00:00",
+ "as_of": "2026-11-25",
  "snapshot": {
   "sp500": {
-   "last_date": "2026-11-20",
-   "level": 6910.390137,
-   "pct_1d": -3.6990834247008997,
-   "pct_1w": -8.612909472617414,
-   "pct_1m": -10.916091738540622,
-   "pct_1y": 5.683499383665835,
-   "abs_1d": -265.43994099999964,
-   "abs_1m": -846.7797849999997,
-   "abs_1y": 371.6303710000002,
-   "drawdown_1y": -11.619748719444246,
-   "zscore_1y": -0.878967634327516
+   "last_date": "2026-11-24",
+   "level": 7201.089844,
+   "pct_1d": -0.49853849486553026,
+   "pct_1w": -1.8995896084358699,
+   "pct_1m": -5.543127757777022,
+   "pct_1y": 7.3968805680681315,
+   "abs_1d": -36.08007799999996,
+   "abs_1m": -422.59033199999976,
+   "abs_1y": 495.9697269999997,
+   "drawdown_1y": -7.901852530880049,
+   "zscore_1y": -0.1450347420495008
   },
   "dow": {
-   "last_date": "2026-11-20",
-   "level": 48147.328125,
-   "pct_1d": -1.9343938235763636,
-   "pct_1w": -8.023723351588984,
-   "pct_1m": -8.908645593908837,
-   "pct_1y": 5.234859034313866,
-   "abs_1d": -949.7304690000019,
-   "abs_1m": -4708.761719000002,
-   "abs_1y": 2395.066405999998,
-   "drawdown_1y": -11.411027159525977,
-   "zscore_1y": -1.010463798553362
+   "last_date": "2026-11-24",
+   "level": 50018.699219,
+   "pct_1d": 0.8536908772278862,
+   "pct_1w": -1.459281112034927,
+   "pct_1m": -4.206557885559992,
+   "pct_1y": 7.68689495658621,
+   "abs_1d": 423.390625,
+   "abs_1m": -2196.460936999996,
+   "abs_1y": 3570.429688000004,
+   "drawdown_1y": -7.9677863925532115,
+   "zscore_1y": -0.1524257493686768
   },
   "nasdaq": {
-   "last_date": "2026-11-20",
-   "level": 22617.730469,
-   "pct_1d": -5.282709601904423,
-   "pct_1w": -10.019541916886055,
-   "pct_1m": -15.29846990777557,
-   "pct_1y": 2.444417278288147,
-   "abs_1d": -1261.46875,
-   "abs_1m": -4085.1289060000017,
-   "abs_1y": 539.6796879999965,
-   "drawdown_1y": -18.051074889769392,
-   "zscore_1y": -1.2970305144567706
+   "last_date": "2026-11-24",
+   "level": 23733.535156,
+   "pct_1d": -1.4779239758457852,
+   "pct_1w": -2.4450690181461177,
+   "pct_1m": -8.560106326304195,
+   "pct_1y": 3.766723601529276,
+   "abs_1d": -356.0253909999992,
+   "abs_1m": -2221.8046879999965,
+   "abs_1y": 861.5253900000025,
+   "drawdown_1y": -14.008273386854043,
+   "zscore_1y": -0.6422025895692562
   },
   "btc": {
-   "last_date": "2026-11-23",
-   "level": 61370.230469,
-   "pct_1d": 0.3406046548720676,
-   "pct_1w": -5.3744012558621606,
-   "pct_1m": -24.038129131258945,
-   "pct_1y": -29.301048388920105,
-   "abs_1d": 208.3203130000038,
-   "abs_1m": -19420.605469000002,
-   "abs_1y": -25434.777342999994,
-   "drawdown_1y": -36.685591805756665,
-   "zscore_1y": -1.4324047739058154
+   "last_date": "2026-11-25",
+   "level": 59134.351562,
+   "pct_1d": -3.392581959273544,
+   "pct_1w": -6.116973049661567,
+   "pct_1m": -26.088210239382427,
+   "pct_1y": -32.29554439588248,
+   "abs_1d": -2076.6328129999965,
+   "abs_1m": -20872.304687999997,
+   "abs_1y": -28207.539062999997,
+   "drawdown_1y": -38.99230222070622,
+   "zscore_1y": -1.6494611784439253
   },
   "eth": {
-   "last_date": "2026-11-23",
-   "level": 1721.640015,
-   "pct_1d": 0.03278943542379675,
-   "pct_1w": -5.366743171116384,
-   "pct_1m": -26.923857689722695,
-   "pct_1y": -38.549639585826135,
-   "abs_1d": 0.5643310000000383,
-   "abs_1m": -634.3135980000002,
-   "abs_1y": -1080.0360100000003,
-   "drawdown_1y": -48.68010886322281,
-   "zscore_1y": -1.2770982920788825
+   "last_date": "2026-11-25",
+   "level": 1657.77002,
+   "pct_1d": -2.9892183984610465,
+   "pct_1w": -6.591304819819321,
+   "pct_1m": -28.553057091678003,
+   "pct_1y": -43.95518146319068,
+   "abs_1d": -51.08129800000006,
+   "abs_1m": -662.5112300000001,
+   "abs_1y": -1300.166259,
+   "drawdown_1y": -50.583991882755505,
+   "zscore_1y": -1.4090263931431182
   },
   "copper": {
-   "last_date": "2026-11-23",
-   "level": 5.5475,
-   "pct_1d": 1.2872010224575403,
-   "pct_1w": -7.503126302626084,
-   "pct_1m": -14.337554045707224,
-   "pct_1y": 10.761705101327745,
-   "abs_1d": 0.07050000000000001,
-   "abs_1m": -0.9284999999999997,
-   "abs_1y": 0.5390000000000006,
-   "drawdown_1y": -18.46108620562945,
-   "zscore_1y": -1.2878924561337992
+   "last_date": "2026-11-24",
+   "level": 5.4465,
+   "pct_1d": -3.2077483561400277,
+   "pct_1w": -8.860441767068272,
+   "pct_1m": -15.897158739962936,
+   "pct_1y": 9.764207980652984,
+   "abs_1d": -0.18049999999999944,
+   "abs_1m": -1.0294999999999996,
+   "abs_1y": 0.4845000000000006,
+   "drawdown_1y": -19.945616226942008,
+   "zscore_1y": -1.5458758424625065
   },
   "gold": {
-   "last_date": "2026-11-23",
-   "level": 3635.100098,
-   "pct_1d": 3.4050235915378924,
-   "pct_1w": -5.655330962886063,
-   "pct_1m": -9.301624619266757,
-   "pct_1y": -10.893489447236181,
-   "abs_1d": 119.70019599999978,
-   "abs_1m": -372.7998040000002,
-   "abs_1y": -444.3999020000001,
-   "drawdown_1y": -31.65049328778361,
-   "zscore_1y": -2.2773403359871
+   "last_date": "2026-11-24",
+   "level": 3547.199951,
+   "pct_1d": -2.8536986853432866,
+   "pct_1w": -8.203509239162553,
+   "pct_1m": -11.494796832877585,
+   "pct_1y": -13.360363600864101,
+   "abs_1d": -104.19995100000006,
+   "abs_1m": -460.69995100000006,
+   "abs_1y": -547.0,
+   "drawdown_1y": -33.30324878980866,
+   "zscore_1y": -2.4894303683558334
   },
   "silver": {
-   "last_date": "2026-11-23",
-   "level": 42.720001,
-   "pct_1d": 4.106253198489118,
-   "pct_1w": -8.688680132521098,
-   "pct_1m": -20.463216481972335,
-   "pct_1y": -14.342429484040874,
-   "abs_1d": 1.6850010000000069,
-   "abs_1m": -10.990997999999998,
-   "abs_1y": -7.152999999999999,
-   "drawdown_1y": -62.877997690684786,
-   "zscore_1y": -2.0981775798260545
+   "last_date": "2026-11-24",
+   "level": 40.57,
+   "pct_1d": -5.97260310039176,
+   "pct_1w": -14.206560404608382,
+   "pct_1m": -24.466122851299044,
+   "pct_1y": -19.335914875670134,
+   "abs_1d": -2.5769990000000007,
+   "abs_1m": -13.140999,
+   "abs_1y": -9.724998,
+   "drawdown_1y": -64.74626408157344,
+   "zscore_1y": -2.2547362356375333
   },
   "eurusd": {
-   "last_date": "2026-11-23",
-   "level": 1.100715,
-   "pct_1d": 0.3412119908256628,
-   "pct_1w": -0.1607275187825219,
-   "pct_1m": -1.909822785983284,
-   "pct_1y": -4.572432758596767,
-   "abs_1d": 0.003743000000000052,
-   "abs_1m": -0.021430999999999978,
-   "abs_1y": -0.05274099999999993,
-   "drawdown_1y": -8.408389667189232,
-   "zscore_1y": -2.6193642199954694
+   "last_date": "2026-11-25",
+   "level": 1.094811,
+   "pct_1d": 0.36679165024156024,
+   "pct_1w": -0.40726361062797256,
+   "pct_1m": -2.4019505150411735,
+   "pct_1y": -4.964900386890014,
+   "abs_1d": 0.004000999999999921,
+   "abs_1m": -0.02694400000000008,
+   "abs_1y": -0.057196000000000025,
+   "drawdown_1y": -8.899667488791485,
+   "zscore_1y": -2.78070340325189
   },
   "y3m": {
-   "last_date": "2026-11-19",
-   "level": 4.34,
-   "pct_1d": 0.0,
-   "pct_1w": 0.4629629629629539,
-   "pct_1m": 1.8779342723004744,
-   "pct_1y": 9.873417721518972,
-   "abs_1d": 0.0,
-   "abs_1m": 0.08000000000000007,
-   "abs_1y": 0.3899999999999997,
+   "last_date": "2026-11-23",
+   "level": 4.37,
+   "pct_1d": 1.157407407407396,
+   "pct_1w": 0.691244239631339,
+   "pct_1m": 3.5545023696682554,
+   "pct_1y": 12.051282051282053,
+   "abs_1d": 0.04999999999999982,
+   "abs_1m": 0.15000000000000036,
+   "abs_1y": 0.4700000000000002,
    "drawdown_1y": 0.0,
-   "zscore_1y": 2.420809977869343
+   "zscore_1y": 2.493428667433625
   },
   "y2": {
-   "last_date": "2026-11-19",
-   "level": 4.76,
-   "pct_1d": -0.8333333333333304,
-   "pct_1w": -2.0576131687242927,
-   "pct_1m": -0.6263048016701522,
-   "pct_1y": 32.96089385474858,
-   "abs_1d": -0.040000000000000036,
-   "abs_1m": -0.03000000000000025,
-   "abs_1y": 1.1799999999999997,
-   "drawdown_1y": -3.25203252032521,
-   "zscore_1y": 1.63754807948904
+   "last_date": "2026-11-23",
+   "level": 4.63,
+   "pct_1d": 0.0,
+   "pct_1w": -4.140786749482405,
+   "pct_1m": -1.279317697228155,
+   "pct_1y": 31.908831908831914,
+   "abs_1d": 0.0,
+   "abs_1m": -0.0600000000000005,
+   "abs_1y": 1.12,
+   "drawdown_1y": -5.894308943089433,
+   "zscore_1y": 1.325956218424623
   },
   "y5": {
-   "last_date": "2026-11-19",
-   "level": 4.86,
-   "pct_1d": -0.6134969325153228,
-   "pct_1w": -1.8181818181818188,
-   "pct_1m": -1.619433198380571,
-   "pct_1y": 30.997304582210262,
-   "abs_1d": -0.02999999999999936,
+   "last_date": "2026-11-23",
+   "level": 4.74,
+   "pct_1d": 0.6369426751592355,
+   "pct_1w": -3.853955375253537,
+   "pct_1m": -1.6597510373444035,
+   "pct_1y": 30.939226519337026,
+   "abs_1d": 0.03000000000000025,
    "abs_1m": -0.08000000000000007,
-   "abs_1y": 1.1500000000000004,
-   "drawdown_1y": -4.518664047151266,
-   "zscore_1y": 1.5624059479078618
+   "abs_1y": 1.12,
+   "drawdown_1y": -6.876227897838893,
+   "zscore_1y": 1.2665191440755206
   },
   "y10": {
-   "last_date": "2026-11-19",
-   "level": 5.04,
-   "pct_1d": -0.591715976331364,
-   "pct_1w": -1.17647058823529,
-   "pct_1m": -1.5625,
-   "pct_1y": 22.033898305084755,
-   "abs_1d": -0.03000000000000025,
+   "last_date": "2026-11-23",
+   "level": 4.92,
+   "pct_1d": 0.0,
+   "pct_1w": -3.90625,
+   "pct_1m": -1.6000000000000014,
+   "pct_1y": 21.182266009852224,
+   "abs_1d": 0.0,
    "abs_1m": -0.08000000000000007,
-   "abs_1y": 0.9100000000000001,
-   "drawdown_1y": -5.0847457627118615,
-   "zscore_1y": 1.5353192568683336
+   "abs_1y": 0.8600000000000003,
+   "drawdown_1y": -7.344632768361581,
+   "zscore_1y": 1.1703513920441937
   },
   "y30": {
-   "last_date": "2026-11-19",
-   "level": 5.4,
-   "pct_1d": -0.1848428835489746,
-   "pct_1w": -0.5524861878452914,
-   "pct_1m": -0.36900369003689537,
-   "pct_1y": 13.684210526315788,
-   "abs_1d": -0.009999999999999787,
-   "abs_1m": -0.019999999999999574,
-   "abs_1y": 0.6500000000000004,
-   "drawdown_1y": -4.761904761904756,
-   "zscore_1y": 1.4649079851601103
+   "last_date": "2026-11-23",
+   "level": 5.29,
+   "pct_1d": -0.37664783427494575,
+   "pct_1w": -3.1135531135531136,
+   "pct_1m": -0.7504690431519689,
+   "pct_1y": 12.314225053078554,
+   "abs_1d": -0.019999999999999574,
+   "abs_1m": -0.040000000000000036,
+   "abs_1y": 0.5800000000000001,
+   "drawdown_1y": -6.701940035273369,
+   "zscore_1y": 1.004793524246432
   },
   "spread_10y_3m": {
-   "last_date": "2026-11-19",
-   "level": 0.7,
-   "pct_1d": -4.109589041095896,
-   "pct_1w": -10.256410256410264,
-   "pct_1m": -18.6046511627907,
-   "pct_1y": 288.88888888888886,
-   "abs_1d": -0.030000000000000027,
-   "abs_1m": -0.16000000000000003,
-   "abs_1y": 0.52,
-   "drawdown_1y": -35.779816513761475,
-   "zscore_1y": 0.19665939921677533
+   "last_date": "2026-11-23",
+   "level": 0.55,
+   "pct_1d": -8.333333333333325,
+   "pct_1w": -29.487179487179482,
+   "pct_1m": -29.487179487179482,
+   "pct_1y": 243.75,
+   "abs_1d": -0.04999999999999993,
+   "abs_1m": -0.22999999999999998,
+   "abs_1y": 0.39,
+   "drawdown_1y": -49.54128440366973,
+   "zscore_1y": -0.626881051599491
   }
  },
  "observations": [
-  "Largest 1-month moves: Ethereum -26.9%, Bitcoin -24.0%, Silver (COMEX) -20.5%.",
-  "More than 10% below 1-year high: S&P 500 (-12%), Dow Jones Industrial (-11%), Nasdaq Composite (-18%), Bitcoin (-37%), Ethereum (-49%), Copper (COMEX) (-18%), Gold (COMEX) (-32%), Silver (COMEX) (-63%).",
-  "10Y minus 3M spread at +70bp (positive), -16bp over one month.",
-  "Highest 1Y co-movement: S&P 500 / Nasdaq Composite (+0.96); US Treasury 5Y / US Treasury 10Y (+0.95).",
-  "Strongest inverse relationships: Dow Jones Industrial / US Treasury 30Y (-0.33); Dow Jones Industrial / US Treasury 10Y (-0.32).",
-  "7 of 15 alert rules triggered today."
+  "Largest 1-month moves: Ethereum -28.6%, Bitcoin -26.1%, Silver (COMEX) -24.5%.",
+  "More than 10% below 1-year high: Nasdaq Composite (-14%), Bitcoin (-39%), Ethereum (-51%), Copper (COMEX) (-20%), Gold (COMEX) (-33%), Silver (COMEX) (-65%).",
+  "10Y minus 3M spread at +55bp (positive), -23bp over one month.",
+  "Highest 1Y co-movement: S&P 500 / Nasdaq Composite (+0.97); US Treasury 5Y / US Treasury 10Y (+0.95).",
+  "Strongest inverse relationships: Dow Jones Industrial / US Treasury 30Y (-0.30); Dow Jones Industrial / Curve 10Y minus 3M (-0.29).",
+  "4 of 15 alert rules triggered today."
  ],
  "products": [
   {
@@ -215,57 +215,57 @@
    "tone": "down",
    "paragraphs": [
     "None of the 3 instruments holds above its 200-day average, so the primary trend is down.",
-    "The deepest drawdown from the 1-year high is Nasdaq Composite (-18.1%).",
-    "Over one month the Nasdaq lagged the Dow by 6.4 percentage points, so the market is favouring value and large industrial names."
+    "The deepest drawdown from the 1-year high is Nasdaq Composite (-14.0%).",
+    "Over one month the Nasdaq lagged the Dow by 4.4 percentage points, so the market is favouring value and large industrial names."
    ],
    "items": [
     {
      "key": "sp500",
      "label": "S&P 500",
-     "summary": "S&P 500 closed at 6,910.39 (-3.7% on the day, -10.9% over one month, -10.0% over three). Trend: downtrend; the price is in correction territory (10-20% below its 1-year high). RSI is 29, which is oversold. Recent volatility (22% annualised) is well above its 1-year average (14%).",
+     "summary": "S&P 500 closed at 7,201.09 (-0.5% on the day, -5.5% over one month, -6.2% over three). Trend: downtrend; the price is in a mild pullback (5-10% below its 1-year high). RSI is 36, a neutral reading. Recent volatility (27% annualised) is well above its 1-year average (15%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 7625.256406200001,
-     "ma200": 7348.580312495,
-     "pct_vs_ma200": -5.962922862119802,
-     "rsi": 29.171426672959655,
-     "range_pos": 0.38412831866717595,
-     "vol30": 22.406540519880974,
-     "vol1y": 14.409780146447101,
-     "pct_3m": -9.954953544756172
+     "ma50": 7609.907402319999,
+     "ma200": 7351.286013179999,
+     "pct_vs_ma200": -2.0431278134290354,
+     "rsi": 35.912861567177316,
+     "range_pos": 0.581184815494884,
+     "vol30": 26.72843914276704,
+     "vol1y": 15.021914071981312,
+     "pct_3m": -6.183284116661625
     },
     {
      "key": "dow",
      "label": "Dow Jones Industrial",
-     "summary": "Dow Jones Industrial closed at 48,147.33 (-1.9% on the day, -8.9% over one month, -9.6% over three). Trend: downtrend; the price is in correction territory (10-20% below its 1-year high). RSI is 30, a neutral reading. Recent volatility (20% annualised) is well above its 1-year average (14%).",
+     "summary": "Dow Jones Industrial closed at 50,018.70 (+0.9% on the day, -4.2% over one month, -6.4% over three). Trend: downtrend; the price is in a mild pullback (5-10% below its 1-year high). RSI is 33, a neutral reading. Recent volatility (22% annualised) is well above its 1-year average (14%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 51705.70531254,
-     "ma200": 50776.40900392501,
-     "pct_vs_ma200": -5.177760559479072,
-     "rsi": 30.41247783473841,
-     "range_pos": 0.32460591776511616,
-     "vol30": 19.934192046336022,
-     "vol1y": 13.868467816711794,
-     "pct_3m": -9.628324540902543
+     "ma50": 51607.69929692,
+     "ma200": 50773.221328145,
+     "pct_vs_ma200": -1.4860631045419792,
+     "rsi": 33.141473653408,
+     "range_pos": 0.5284039111632769,
+     "vol30": 22.111394263748444,
+     "vol1y": 14.13638445378064,
+     "pct_3m": -6.443938893878798
     },
     {
      "key": "nasdaq",
      "label": "Nasdaq Composite",
-     "summary": "Nasdaq Composite closed at 22,617.73 (-5.3% on the day, -15.3% over one month, -13.6% over three). Trend: downtrend; the price is in correction territory (10-20% below its 1-year high). RSI is 31, a neutral reading. Recent volatility (31% annualised) is well above its 1-year average (20%).",
+     "summary": "Nasdaq Composite closed at 23,733.54 (-1.5% on the day, -8.6% over one month, -9.2% over three). Trend: downtrend; the price is in correction territory (10-20% below its 1-year high). RSI is 37, a neutral reading. Recent volatility (37% annualised) is well above its 1-year average (21%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 26113.439921860005,
-     "ma200": 25157.464462885,
-     "pct_vs_ma200": -10.095349623297256,
-     "rsi": 30.622289740721484,
-     "range_pos": 0.2678986154200178,
-     "vol30": 30.71756086844804,
-     "vol1y": 20.48095725799345,
-     "pct_3m": -13.60835654283239
+     "ma50": 26026.54222656,
+     "ma200": 25165.2305371,
+     "pct_vs_ma200": -5.689180470607303,
+     "rsi": 37.20398572366303,
+     "range_pos": 0.43186339845594784,
+     "vol30": 36.845105041276064,
+     "vol1y": 21.351798281241766,
+     "pct_3m": -9.17200838353086
     }
    ]
   },
@@ -277,41 +277,41 @@
    "tone": "down",
    "paragraphs": [
     "None of the 2 instruments holds above its 200-day average, so the primary trend is down.",
-    "The deepest drawdown from the 1-year high is Ethereum (-48.7%).",
-    "The ETH/BTC ratio moved -3.8% over one month: Ethereum is underperforming Bitcoin. A falling ratio usually signals a defensive stance inside crypto."
+    "The deepest drawdown from the 1-year high is Ethereum (-50.6%).",
+    "The ETH/BTC ratio moved -3.3% over one month: Ethereum is underperforming Bitcoin. A falling ratio usually signals a defensive stance inside crypto."
    ],
    "items": [
     {
      "key": "btc",
      "label": "Bitcoin",
-     "summary": "Bitcoin closed at 61,370.23 (+0.3% on the day, -24.0% over one month, -21.9% over three). Trend: downtrend; the price is in bear-market territory (more than 20% below its 1-year high). RSI is 18, which is oversold. Recent volatility (48% annualised) is in line with its 1-year average (45%).",
+     "summary": "Bitcoin closed at 59,134.35 (-3.4% on the day, -26.1% over one month, -26.3% over three). Trend: downtrend; the price is in bear-market territory (more than 20% below its 1-year high). RSI is 17, which is oversold. Recent volatility (48% annualised) is in line with its 1-year average (45%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 76161.71992194,
-     "ma200": 72232.8810352,
-     "pct_vs_ma200": -15.038373674873206,
-     "rsi": 18.393040515994315,
-     "range_pos": 0.07326913602013271,
-     "vol30": 47.53776116387431,
-     "vol1y": 44.59718368073137,
-     "pct_3m": -21.886019503144205
+     "ma50": 75625.49015629999,
+     "ma200": 72126.82273441501,
+     "pct_vs_ma200": -18.013369617369413,
+     "rsi": 17.338529369575213,
+     "range_pos": 0.014998310048010645,
+     "vol30": 48.27157322010953,
+     "vol1y": 44.68588337611739,
+     "pct_3m": -26.31925641737165
     },
     {
      "key": "eth",
      "label": "Ethereum",
-     "summary": "Ethereum closed at 1,721.64 (+0.0% on the day, -26.9% over one month, -29.5% over three). Trend: downtrend; the price is in bear-market territory (more than 20% below its 1-year high). RSI is 23, which is oversold. Recent volatility (66% annualised) is in line with its 1-year average (61%).",
+     "summary": "Ethereum closed at 1,657.77 (-3.0% on the day, -28.6% over one month, -34.0% over three). Trend: downtrend; the price is in bear-market territory (more than 20% below its 1-year high). RSI is 24, which is oversold. Recent volatility (67% annualised) is in line with its 1-year average (61%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 2225.9506616,
-     "ma200": 2119.42412351,
-     "pct_vs_ma200": -18.768499617302915,
-     "rsi": 23.239331526456084,
-     "range_pos": 0.08761541917525695,
-     "vol30": 66.39208397394573,
-     "vol1y": 60.79535088067319,
-     "pct_3m": -29.532227897707585
+     "ma50": 2204.6296581799998,
+     "ma200": 2116.114169285,
+     "pct_vs_ma200": -21.65970796556157,
+     "rsi": 23.741557224794946,
+     "range_pos": 0.05193198396363164,
+     "vol30": 66.64299112486516,
+     "vol1y": 60.62617283564842,
+     "pct_3m": -33.96417648973215
     }
    ]
   },
@@ -323,58 +323,58 @@
    "tone": "down",
    "paragraphs": [
     "None of the 3 instruments holds above its 200-day average, so the primary trend is down.",
-    "The deepest drawdown from the 1-year high is Silver (COMEX) (-62.9%).",
-    "The gold/silver ratio is 85.1 (+14.0% over one month). A rising ratio points to defensive positioning; a falling one to risk appetite.",
-    "The copper/gold ratio moved +6.8% over three months, a read of growth optimism."
+    "The deepest drawdown from the 1-year high is Silver (COMEX) (-64.7%).",
+    "The gold/silver ratio is 87.4 (+17.2% over one month). A rising ratio points to defensive positioning; a falling one to risk appetite.",
+    "The copper/gold ratio moved +8.3% over three months, a read of growth optimism."
    ],
    "items": [
     {
      "key": "copper",
      "label": "Copper (COMEX)",
-     "summary": "Copper (COMEX) closed at 5.5475 (+1.3% on the day, -14.3% over one month, -17.3% over three). Trend: downtrend; the price is in correction territory (10-20% below its 1-year high). RSI is 19, which is oversold. Recent volatility (26% annualised) is in line with its 1-year average (28%).",
+     "summary": "Copper (COMEX) closed at 5.4465 (-3.2% on the day, -15.9% over one month, -17.4% over three). Trend: downtrend; the price is in correction territory (10-20% below its 1-year high). RSI is 20, which is oversold. Recent volatility (28% annualised) is in line with its 1-year average (28%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 6.412129999999999,
-     "ma200": 6.2222075,
-     "pct_vs_ma200": -10.843539049445061,
-     "rsi": 19.267751479289927,
-     "range_pos": 0.31794732554982386,
-     "vol30": 26.0027993774254,
-     "vol1y": 28.02245749346292,
-     "pct_3m": -17.31872717788211
+     "ma50": 6.395280000000001,
+     "ma200": 6.2201125,
+     "pct_vs_ma200": -12.43727504928568,
+     "rsi": 19.874015748031468,
+     "range_pos": 0.2477827050997784,
+     "vol30": 28.275784650472026,
+     "vol1y": 28.299590937182906,
+     "pct_3m": -17.40844643263325
     },
     {
      "key": "gold",
      "label": "Gold (COMEX)",
-     "summary": "Gold (COMEX) closed at 3,635.10 (+3.4% on the day, -9.3% over one month, -22.6% over three). Trend: downtrend; the price is in bear-market territory (more than 20% below its 1-year high). RSI is 35, a neutral reading. Recent volatility (29% annualised) is in line with its 1-year average (29%).",
+     "summary": "Gold (COMEX) closed at 3,547.20 (-2.9% on the day, -11.5% over one month, -23.8% over three). Trend: downtrend; the price is in bear-market territory (more than 20% below its 1-year high). RSI is 23, which is oversold. Recent volatility (30% annualised) is in line with its 1-year average (29%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 4096.5259863,
-     "ma200": 4437.95699581,
-     "pct_vs_ma200": -18.09068674094859,
-     "rsi": 34.65059559699159,
-     "range_pos": 0.06638945978924003,
-     "vol30": 28.94919698111007,
-     "vol1y": 29.009390842923132,
-     "pct_3m": -22.56683144104804
+     "ma50": 4081.1399853000003,
+     "ma200": 4430.377495074999,
+     "pct_vs_ma200": -19.93458898382312,
+     "rsi": 23.239008025107722,
+     "range_pos": 0.017637298391569575,
+     "vol30": 30.313858948281013,
+     "vol1y": 29.200118380961413,
+     "pct_3m": -23.770225438977487
     },
     {
      "key": "silver",
      "label": "Silver (COMEX)",
-     "summary": "Silver (COMEX) closed at 42.72 (+4.1% on the day, -20.5% over one month, -37.8% over three). Trend: downtrend; the price is in bear-market territory (more than 20% below its 1-year high). RSI is 32, a neutral reading. Recent volatility (49% annualised) is below its 1-year average (70%).",
+     "summary": "Silver (COMEX) closed at 40.57 (-6.0% on the day, -24.5% over one month, -40.3% over three). Trend: downtrend; the price is in bear-market territory (more than 20% below its 1-year high). RSI is 21, which is oversold. Recent volatility (52% annualised) is below its 1-year average (70%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 55.96626014,
-     "ma200": 67.33976482,
-     "pct_vs_ma200": -36.56051351799181,
-     "rsi": 32.49731495545727,
-     "range_pos": 0.02275644479015622,
-     "vol30": 49.30454979293889,
-     "vol1y": 69.60808745566351,
-     "pct_3m": -37.75861099835039
+     "ma50": 55.521480100000005,
+     "ma200": 67.13442479999999,
+     "pct_vs_ma200": -39.56900633190499,
+     "rsi": 21.25148590005982,
+     "range_pos": 0.0,
+     "vol30": 52.362636238872774,
+     "vol1y": 69.93699446848089,
+     "pct_3m": -40.32945845946341
     }
    ]
   },
@@ -385,24 +385,24 @@
    "status": "Downtrend",
    "tone": "down",
    "paragraphs": [
-    "EUR/USD trades 4.3% below its 200-day average and moved -1.9% over one month, meaning the dollar has strengthened against the euro."
+    "EUR/USD trades 4.7% below its 200-day average and moved -2.4% over one month, meaning the dollar has strengthened against the euro."
    ],
    "items": [
     {
      "key": "eurusd",
      "label": "EUR/USD",
-     "summary": "EUR/USD closed at 1.1007 (+0.3% on the day, -1.9% over one month, -5.7% over three). Trend: downtrend; the price is in a mild pullback (5-10% below its 1-year high). RSI is 31, a neutral reading. Recent volatility (5% annualised) is in line with its 1-year average (6%).",
+     "summary": "EUR/USD closed at 1.0948 (+0.4% on the day, -2.4% over one month, -6.1% over three). Trend: downtrend; the price is in a mild pullback (5-10% below its 1-year high). RSI is 22, which is oversold. Recent volatility (5% annualised) is in line with its 1-year average (6%).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 1.1232374200000002,
-     "ma200": 1.15020097,
-     "pct_vs_ma200": -4.302375957829341,
-     "rsi": 31.355111917725395,
-     "range_pos": 0.03571837544850802,
-     "vol30": 5.127344082743377,
-     "vol1y": 5.558659299716824,
-     "pct_3m": -5.66653011482352
+     "ma50": 1.12070628,
+     "ma200": 1.1492604,
+     "pct_vs_ma200": -4.737777443649849,
+     "rsi": 22.463712464480537,
+     "range_pos": 0.036059988824196705,
+     "vol30": 5.098698350385783,
+     "vol1y": 5.573442234447244,
+     "pct_3m": -6.064155100696023
     }
    ]
   },
@@ -413,92 +413,92 @@
    "status": "Yields stable",
    "tone": "neutral",
    "paragraphs": [
-    "The 10Y-2Y spread is +28bp and the 10Y-3M spread is +70bp. The curve is not inverted. Over one month the curve has been little changed."
+    "The 10Y-2Y spread is +29bp and the 10Y-3M spread is +55bp. The curve is not inverted. Over one month the curve has been little changed."
    ],
    "items": [
     {
      "key": "y3m",
      "label": "US Treasury 3M",
-     "summary": "US Treasury 3M stands at 4.34% (+0bp on the day, +8bp over one month, +46bp over three). Trend: uptrend. It is high against the past year (z-score +2.4).",
+     "summary": "US Treasury 3M stands at 4.37% (+5bp on the day, +15bp over one month, +51bp over three). Trend: uptrend. It is high against the past year (z-score +2.5).",
      "trend": "Uptrend",
      "above50": true,
      "above200": true,
-     "ma50": 4.2128,
-     "ma200": 3.88135,
-     "pct_vs_ma200": 11.816764785448353,
+     "ma50": 4.2276,
+     "ma200": 3.8879999999999995,
+     "pct_vs_ma200": 12.397119341563801,
      "rsi": 76.66666666666679,
      "range_pos": 1.0,
-     "abs_3m": 0.45999999999999996
+     "abs_3m": 0.5100000000000002
     },
     {
      "key": "y2",
      "label": "US Treasury 2Y",
-     "summary": "US Treasury 2Y stands at 4.76% (-4bp on the day, -3bp over one month, +52bp over three). Trend: uptrend. It is high against the past year (z-score +1.6).",
-     "trend": "Uptrend",
-     "above50": true,
+     "summary": "US Treasury 2Y stands at 4.63% (+0bp on the day, -6bp over one month, +46bp over three). Trend: pullback within uptrend. It is within its normal 1-year range (z-score +1.3).",
+     "trend": "Pullback within uptrend",
+     "above50": false,
      "above200": true,
-     "ma50": 4.7276,
-     "ma200": 4.15045,
-     "pct_vs_ma200": 14.686359310436202,
-     "rsi": 59.49367088607589,
-     "range_pos": 0.8961038961038961,
-     "abs_3m": 0.5199999999999996
+     "ma50": 4.733,
+     "ma200": 4.16155,
+     "pct_vs_ma200": 11.256623133207565,
+     "rsi": 52.38095238095238,
+     "range_pos": 0.8116883116883117,
+     "abs_3m": 0.45999999999999996
     },
     {
      "key": "y5",
      "label": "US Treasury 5Y",
-     "summary": "US Treasury 5Y stands at 4.86% (-3bp on the day, -8bp over one month, +43bp over three). Trend: pullback within uptrend. It is high against the past year (z-score +1.6).",
+     "summary": "US Treasury 5Y stands at 4.74% (+3bp on the day, -8bp over one month, +39bp over three). Trend: pullback within uptrend. It is within its normal 1-year range (z-score +1.3).",
      "trend": "Pullback within uptrend",
      "above50": false,
      "above200": true,
-     "ma50": 4.8784,
-     "ma200": 4.29415,
-     "pct_vs_ma200": 13.177229486627162,
-     "rsi": 55.128205128205124,
-     "range_pos": 0.8544303797468358,
-     "abs_3m": 0.4300000000000006
+     "ma50": 4.8802,
+     "ma200": 4.30355,
+     "pct_vs_ma200": 10.14162726121457,
+     "rsi": 52.272727272727266,
+     "range_pos": 0.7784810126582281,
+     "abs_3m": 0.39000000000000057
     },
     {
      "key": "y10",
      "label": "US Treasury 10Y",
-     "summary": "US Treasury 10Y stands at 5.04% (-3bp on the day, -8bp over one month, +30bp over three). Trend: pullback within uptrend. It is high against the past year (z-score +1.5).",
+     "summary": "US Treasury 10Y stands at 4.92% (+0bp on the day, -8bp over one month, +28bp over three). Trend: pullback within uptrend. It is within its normal 1-year range (z-score +1.2).",
      "trend": "Pullback within uptrend",
      "above50": false,
      "above200": true,
-     "ma50": 5.0698,
-     "ma200": 4.59395,
-     "pct_vs_ma200": 9.709509245855962,
-     "rsi": 54.687499999999964,
-     "range_pos": 0.7985074626865674,
-     "abs_3m": 0.2999999999999998
+     "ma50": 5.070999999999999,
+     "ma200": 4.600650000000001,
+     "pct_vs_ma200": 6.941410452870778,
+     "rsi": 50.72463768115941,
+     "range_pos": 0.7089552238805972,
+     "abs_3m": 0.28000000000000025
     },
     {
      "key": "y30",
      "label": "US Treasury 30Y",
-     "summary": "US Treasury 30Y stands at 5.40% (-1bp on the day, -2bp over one month, +13bp over three). Trend: pullback within uptrend. It is within its normal 1-year range (z-score +1.5).",
+     "summary": "US Treasury 30Y stands at 5.29% (-2bp on the day, -4bp over one month, +12bp over three). Trend: pullback within uptrend. It is within its normal 1-year range (z-score +1.0).",
      "trend": "Pullback within uptrend",
      "above50": false,
      "above200": true,
-     "ma50": 5.4188,
-     "ma200": 5.0945,
-     "pct_vs_ma200": 5.9966630680145405,
-     "rsi": 59.09090909090911,
-     "range_pos": 0.7378640776699034,
-     "abs_3m": 0.13000000000000078
+     "ma50": 5.417800000000001,
+     "ma200": 5.0987,
+     "pct_vs_ma200": 3.751936768195807,
+     "rsi": 50.98039215686273,
+     "range_pos": 0.6310679611650487,
+     "abs_3m": 0.1200000000000001
     },
     {
      "key": "spread_10y_3m",
      "label": "Curve 10Y minus 3M",
-     "summary": "Curve 10Y minus 3M stands at 0.70% (-3bp on the day, -16bp over one month, -16bp over three). Trend: downtrend. It is within its normal 1-year range (z-score +0.2).",
+     "summary": "Curve 10Y minus 3M stands at 0.55% (-5bp on the day, -23bp over one month, -23bp over three). Trend: downtrend. It is within its normal 1-year range (z-score -0.6).",
      "trend": "Downtrend",
      "above50": false,
      "above200": false,
-     "ma50": 0.857,
-     "ma200": 0.7125999999999999,
-     "pct_vs_ma200": -1.7681728880157066,
-     "rsi": 41.07142857142856,
-     "range_pos": 0.6138613861386139,
-     "abs_3m": -0.16000000000000003
+     "ma50": 0.8434,
+     "ma200": 0.71265,
+     "pct_vs_ma200": -22.82326527748544,
+     "rsi": 37.70491803278689,
+     "range_pos": 0.46534653465346537,
+     "abs_3m": -0.22999999999999998
     }
    ]
   }
@@ -513,8 +513,8 @@
    "severity": "warning",
    "message": "S&P 500 at least 10% below its 1-year high",
    "series_label": "S&P 500",
-   "value": -11.619748719444246,
-   "triggered": true
+   "value": -7.901852530880049,
+   "triggered": false
   },
   {
    "id": "nasdaq_correction",
@@ -525,8 +525,8 @@
    "severity": "warning",
    "message": "Nasdaq Composite at least 15% below its 1-year high",
    "series_label": "Nasdaq Composite",
-   "value": -18.051074889769392,
-   "triggered": true
+   "value": -14.008273386854043,
+   "triggered": false
   },
   {
    "id": "dow_correction",
@@ -537,8 +537,8 @@
    "severity": "warning",
    "message": "Dow Jones at least 10% below its 1-year high",
    "series_label": "Dow Jones Industrial",
-   "value": -11.411027159525977,
-   "triggered": true
+   "value": -7.9677863925532115,
+   "triggered": false
   },
   {
    "id": "sp500_daily_drop",
@@ -549,8 +549,8 @@
    "severity": "info",
    "message": "S&P 500 fell 2% or more in one session",
    "series_label": "S&P 500",
-   "value": -3.6990834247008997,
-   "triggered": true
+   "value": -0.49853849486553026,
+   "triggered": false
   },
   {
    "id": "btc_drawdown",
@@ -561,7 +561,7 @@
    "severity": "warning",
    "message": "Bitcoin at least 30% below its 1-year high",
    "series_label": "Bitcoin",
-   "value": -36.685591805756665,
+   "value": -38.99230222070622,
    "triggered": true
   },
   {
@@ -573,7 +573,7 @@
    "severity": "info",
    "message": "Bitcoin down 5% or more in one day",
    "series_label": "Bitcoin",
-   "value": 0.3406046548720676,
+   "value": -3.392581959273544,
    "triggered": false
   },
   {
@@ -585,7 +585,7 @@
    "severity": "warning",
    "message": "Ethereum at least 40% below its 1-year high",
    "series_label": "Ethereum",
-   "value": -48.68010886322281,
+   "value": -50.583991882755505,
    "triggered": true
   },
   {
@@ -597,7 +597,7 @@
    "severity": "info",
    "message": "Gold up 5% or more over one month",
    "series_label": "Gold (COMEX)",
-   "value": -9.301624619266757,
+   "value": -11.494796832877585,
    "triggered": false
   },
   {
@@ -609,7 +609,7 @@
    "severity": "warning",
    "message": "Copper down 8% or more over one month",
    "series_label": "Copper (COMEX)",
-   "value": -14.337554045707224,
+   "value": -15.897158739962936,
    "triggered": true
   },
   {
@@ -621,8 +621,8 @@
    "severity": "info",
    "message": "Silver down 4% or more in one session",
    "series_label": "Silver (COMEX)",
-   "value": 4.106253198489118,
-   "triggered": false
+   "value": -5.97260310039176,
+   "triggered": true
   },
   {
    "id": "eurusd_month_up",
@@ -633,7 +633,7 @@
    "severity": "info",
    "message": "EUR/USD up 3% or more over one month (USD weakening)",
    "series_label": "EUR/USD",
-   "value": -1.909822785983284,
+   "value": -2.4019505150411735,
    "triggered": false
   },
   {
@@ -645,7 +645,7 @@
    "severity": "info",
    "message": "EUR/USD down 3% or more over one month (USD strengthening)",
    "series_label": "EUR/USD",
-   "value": -1.909822785983284,
+   "value": -2.4019505150411735,
    "triggered": false
   },
   {
@@ -657,7 +657,7 @@
    "severity": "warning",
    "message": "US curve inverted (10Y below 3M)",
    "series_label": "Curve 10Y minus 3M",
-   "value": 0.7,
+   "value": 0.55,
    "triggered": false
   },
   {
@@ -685,5 +685,5 @@
    "triggered": false
   }
  ],
- "triggered_count": 7
+ "triggered_count": 4
 }
